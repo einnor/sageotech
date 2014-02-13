@@ -22,7 +22,8 @@ ul.mymenu li a:hover{
 	height: 100%;
 	width: 100%;
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
-    background-image: url(background1.jpg);
+    background-image: url(background3.jpg);
+    background-repeat: no-repeat;
     
 }
 
@@ -38,7 +39,8 @@ ul.mymenu li a:hover{
 }
 
 .contacts{
-	margin: 50px;
+	margin: 0px 50px 50px 50px;
+	
 	
 }
 

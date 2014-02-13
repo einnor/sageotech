@@ -24,7 +24,7 @@
     <div id="main">
     	<div class="header">
     		<div class="pure-menu pure-menu-open pure-menu-horizontal">
-    			<%= image_tag "sageologo.png" %>
+    			<%= link_to (image_tag "sageologo.png"), root_path %>
     				<ul class="mymenu">
         			<li class="pure-menu-selected"><a href=<%= root_path %>>Home</a></li>
         			<li><a href=<%= about_path %>>About Us</a></li>
