@@ -1,0 +1,67 @@
+<div id="layout">
+	<!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="#">Sageo</a>
+
+            <ul>
+                <li><a href=<%= root_path %> >Home</a></li>
+                <li class="menu-item-divided pure-menu-selected"><a href=<%= about_path %> >About Us</a></li>
+                <li><a href=<%= services_path %> >Services</a></li>
+								<li><a href=<%= partners_path %> >Partners</a></li>
+								<li><a href=<%= contacts_path %> >Contacts</a></li>
+                <li><a href=<%= clientsAndProjects_path %> >Clients & Projects</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div id="main">
+    	<div class="header">
+    		<div class="pure-menu pure-menu-open pure-menu-horizontal">
+    			<%= link_to (image_tag "sageologo.png"), root_path %>
+    			<ul class="mymenu">
+        		<li class="pure-menu-selected"><a href=<%= root_path %>>Home</a></li>
+        		<li><a href=<%= about_path %>>About Us</a></li>
+       			<li><a href=<%= services_path %>>Services</a></li>
+       			<li><a href=<%= partners_path %>>Partners</a></li>
+       			<li><a href=<%= contacts_path %>>Contacts</a></li>
+       			<li><a href=<%= clientsAndProjects_path %>>Clients and Projects</a></li>
+   				</ul>
+				</div>
+   		</div>
+   	</div>
+    
+    
+    
+    
+    <div id="background">
+    	<div class="aboutus">
+    
+    		<%= render "layouts/about" %>
+				
+				
+				<div class="pure-g">
+    			<%= render "layouts/footerheader" %>
+    		</div>
+    	</div>
+  </div>
+    
+        
+</div>
+
+<script src="http://yui.yahooapis.com/3.14.1/build/yui/yui.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>

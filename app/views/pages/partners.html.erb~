@@ -1,0 +1,120 @@
+<div id="layout">
+	<!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="#">Sageo</a>
+
+            <ul>
+                <li><a href=<%= root_path %> >Home</a></li>
+                <li><a href=<%= about_path %> >About Us</a></li>
+                <li><a href=<%= services_path %> >Services</a></li>
+								<li class="menu-item-divided pure-menu-selected"><a href=<%= partners_path %> >Partners</a></li>
+								<li><a href=<%= contacts_path %> >Contacts</a></li>
+                <li><a href=<%= clientsAndProjects_path %> >Clients & Projects</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div id="main">
+    	<div class="header">
+    		<div class="pure-menu pure-menu-open pure-menu-horizontal">
+    			<%= image_tag "sageologo.png" %>
+    				<ul class="mymenu">
+        			<li class="pure-menu-selected"><a href=<%= root_path %>>Home</a></li>
+        			<li><a href=<%= about_path %>>About Us</a></li>
+        			<li><a href=<%= services_path %>>Services</a></li>
+        			<li><a href=<%= partners_path %>>Partners</a></li>
+        			<li><a href=<%= contacts_path %>>Contacts</a></li>
+        			<li><a href=<%= clientsAndProjects_path %>>Clients and Projects</a></li>
+    				</ul>
+					</div>
+    	</div>
+    </div>
+    
+    
+    
+    <div class="pure-g" style="margin-top: 40px;">
+    
+    	<div class="photo-box pure-u-1 pure-u-med-1-3 pure-u-lrg-1-4">
+ 	     <a href="#">
+ 	      <%= image_tag "hp.jpeg", :alt => "Hp" %>
+       </a>
+       <aside class="photo-box-caption">
+      	 <span><a href="#">Hp</a></span>
+       </aside>
+      </div>
+    	<div class="photo-box pure-u-1 pure-u-med-1-3 pure-u-lrg-1-4">
+    		<a href="#">
+        	<%= image_tag "citrix.jpg", :alt => "Citrix Partner Silver Solution Advisor" %>
+      	</a>
+      	<aside class="photo-box-caption">
+      		<span><a href="#">Citrix Partner</a> </span>
+      	</aside>
+    	</div>
+    	
+    	<div class="text-box pure-u-1 pure-u-med-1-3 pure-u-lrg-2-4">
+      	<div class="l-box">
+  	      <h1 class="text-box-head">Our Partners</h1>
+	        <p class="text-box-subhead">Sageo Technologies Limited (STL) is in partnership with the following solution providers to provide world class IT solutions</p>
+        </div>
+      </div>
+      
+      
+      
+      <div class="photo-box pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
+      	<a href="#">
+  	      <%= image_tag "microsoft.jpg", :alt => "Microsoft Partner Network" %>
+        </a>
+
+        <aside class="photo-box-caption">
+ 	       <span><a href="#">Microsoft Partner Network</a></span>
+        </aside>
+      </div>
+
+      <div class="photo-box pure-u-1 pure-u-med-1-2 pure-u-lrg-3-5">
+ 	     <a href="#">
+ 	      <%= image_tag "amazon.png", :alt => "Amazon Web Services" %>
+       </a>
+
+       <aside class="photo-box-caption">
+      	 <span><a href="#">Amazon Web Services</a></span>
+       </aside>
+      </div>
+      
+      
+      
+      <div class="photo-box pure-u-1 pure-u-med-2-2 pure-u-lrg-5-5">
+      	<a href="#">
+  	      <%= image_tag "symantec.png", :alt => "Symantec" %>
+        </a>
+
+        <aside class="photo-box-caption">
+ 	       <span><a href="#">Symantec</a></span>
+        </aside>
+      </div>
+
+      
+      
+    </div>
+    
+</div>
+
+
+
+
+<script src="http://yui.yahooapis.com/3.14.1/build/yui/yui.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>

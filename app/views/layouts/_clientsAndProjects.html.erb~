@@ -1,0 +1,201 @@
+<div class="pure-g">
+	<div class="pure-u-1-2">
+		<h1 class="content-subhead">East African Cables</h1>
+		<section class="post">
+			<header class="post-header">
+			</header>
+			
+			<div class="post-description">
+				<p class="panels">
+					Location : Kenya, Uganda, Tanzania <br />
+					Contact Person : Joseph Kinyua
+				</p>
+				
+				<ul id="whatweoffer">
+					Network Outlay : 
+					<li>3 factories across East Africa</li>
+					<li>180 computers</li>
+				</ul>
+				
+				<ul id="whatweoffer">
+					Scope of work : 
+					<li>Outsourced IT Department</li>
+					<li>WAN Implementation and management Kenya, Tanzania, Uganda</li>
+					<li>Citrix Xenapp Deployment</li>
+					<li>Offsite Backup at Amazon</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	
+	<div class="pure-u-1-2">
+		<h1 class="content-subhead">Frigoken Limited</h1>
+		<section class="post">
+			<header class="post-header">
+			</header>
+			
+			<div class="post-description">
+				<p class="panels">
+					Location : Nairobi <br />
+					Contact Person : Victoria Muthusi
+				</p>
+				
+				<ul id="whatweoffer">
+					Network Outlay : 
+					<li>80 Computers</li>
+				</ul>
+				
+				<ul id="whatweoffer">
+					Scope of work : 
+					<li>Outsourced IT Department</li>
+					<li>Citrix Xenapp Deployment</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+</div>
+
+
+<div class="pure-g">
+	<div class="pure-u-1-2">
+		<h1 class="content-subhead">Kewberg Cables and Braids</h1>
+		<section class="post">
+			<header class="post-header">
+			</header>
+			
+			<div class="post-description">
+				<p class="panels">
+					Location : Johannesburg, South Africa <br />
+					Contact Person : Steven Wanyoike
+				</p>
+				
+				<ul id="whatweoffer">
+					Scope of work : 
+					<li>Outsourced IT Department</li>
+					<li>Citrix Xenapp Deployment</li>
+					<li>Offsite Backup at Amazon</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	
+	<div class="pure-u-1-2">
+		<h1 class="content-subhead">Proctor & Allan E.A</h1>
+		<section class="post">
+			<header class="post-header">
+			</header>
+			
+			<div class="post-description">
+				<p class="panels">
+					Location : Kenya <br />
+					Contact Person : Paul Nduati
+				</p>
+				
+				<ul id="whatweoffer">
+					Scope of work : 
+					<li>Outsourced IT Department</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+</div>
+
+
+
+<!--**********************************************************-->
+
+
+
+
+<div class="pure-g">
+	<div class="pure-u-1-2">
+		<h1 class="content-subhead">Trancentury Limited</h1>
+		<section class="post">
+			<header class="post-header">
+			</header>
+			
+			<div class="post-description">
+				<p class="panels">
+					Location : Nairobi <br />
+					Contact Person : Wambua Kimeu
+				</p>
+				
+				<ul id="whatweoffer">
+					Scope of work : 
+					<li>Outsourced IT Department</li>
+					<li>Virtual Servers at Amazon</li>
+					<li>Offsite Backup at Amazon</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	
+	<div class="pure-u-1-2">
+		<h1 class="content-subhead">Civicon Limited</h1>
+		<section class="post">
+			<header class="post-header">
+			</header>
+			
+			<div class="post-description">
+				<p class="panels">
+					Location : enya, Uganda, Rwanda, Congo, South Sudan <br />
+					Contact Person : Michael Wachira
+				</p>
+				
+				<ul id="whatweoffer">
+					Scope of work : 
+					<li>Virtual Server Hosting at Amazon</li>
+					<li>Virtual Mail Server Hosting at Amazon</li>
+					<li>Offsite Backup at Amazon</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+</div>
+
+
+<div class="pure-g">
+	<div class="pure-u-1-2">
+		<h1 class="content-subhead">Viva Africa Consulting LLP</h1>
+		<section class="post">
+			<header class="post-header">
+			</header>
+			
+			<div class="post-description">
+				<p class="panels">
+					Location : Nairobi <br />
+					Contact Person : Kairu Thuo
+				</p>
+				
+				<ul id="whatweoffer">
+					Scope of work : 
+					<li>Outsourced IT Department</li>
+					<li>Virtual Servers at Amazon</li>
+					<li>Offsite Backup at Amazon</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	
+	<div class="pure-u-1-2">
+		<h1 class="content-subhead">Avery East Africa</h1>
+		<section class="post">
+			<header class="post-header">
+			</header>
+			
+			<div class="post-description">
+				<p class="panels">
+					Location : Kenya, Tanzania <br />
+					Contact Person : Michael Ohawa
+				</p>
+				
+				<ul id="whatweoffer">
+					Scope of work : 
+					<li>Outsourced IT Department</li>
+					<li>Offsite Backup at Amazon</li>
+				</ul>
+			</div>
+		</section>
+		</div>
+	</div>
+</div>

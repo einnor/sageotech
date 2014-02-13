@@ -1,0 +1,16 @@
+<div style="margin-top: 40px;">
+	<div class="pure-g">
+		<div class="pure-u-1-4">
+			<%= link_to (image_tag "awslogo.png"), "#" %>
+		</div>
+		<div class="pure-u-1-4">
+			<%= link_to (image_tag "citrixsolutionlogo.png"), "#" %>
+		</div>
+		<div class="pure-u-1-4">
+			<%= link_to (image_tag "microsoftpartnerlogo1.jpg"), "#" %>
+		</div>
+		<div class="pure-u-1-4">
+			<%= link_to (image_tag "symanteclogo.png"), "#"%>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= content_for?(:title) ? yield(:title) :title %></title>
+
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+  <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <%= stylesheet_link_tag "side-menu.css" %>
+        <%= stylesheet_link_tag "main-grid.css" %>
+        <%= stylesheet_link_tag "gallery-grid.css" %>
+        <%= stylesheet_link_tag "gallery.css" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+
+    <%= yield %>
+    <%= render "layouts/footer" %>
+    
+    <%= javascript_include_tag "application" %>
+    
+    
+    
+    <!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52dcf70f0e8deadf"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'right',
+      'numPreferredServices' : 6
+    }, 
+    'follow' : {
+      'services' : [
+        {'service': 'facebook', 'id': 'ronnie_nyaga'},
+        {'service': 'twitter', 'id': '@ronnie_nyaga'},
+        {'service': 'linkedin', 'id': 'ronnie_nyaga'},
+        {'service': 'google_follow', 'id': 'ronnienyaga'},
+        {'service': 'youtube', 'id': 'ronnie nyaga'},
+        {'service': 'instagram', 'id': 'ronnie_nyaga'},
+        {'service': 'foursquare', 'id': 'Ronnie N.'}
+      ]
+    },  
+    'whatsnext' : {},  
+    'recommended' : {
+      'title': 'Sageo Technologies Limited (STL) is a strategic IT solutions company that was established to provide our clients with easily accessible and affordable IT solutions. STL is the answer to an increasing demand of professional IT services rendered to supplement business structures. The popularity of IT based systems is growing exponentially. Those already using these systems are well aware of how business restructuring has been made much simpler with the aim of improving efficiency and performance. STL differentiates itself from other technological firms in as much as being professional advisors in matters concerning IT, while providing total integrated IT solutions.'
+    }
+    
+  });
+</script>
+<!-- AddThis Smart Layers END -->
+    
+  </body>
+</html>
