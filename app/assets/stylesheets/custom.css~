@@ -24,6 +24,8 @@ ul.mymenu li a:hover{
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
     background-image: url(background3.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
     
 }
 

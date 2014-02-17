@@ -105,6 +105,7 @@ ul#whatweoffer {
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	font: 85% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 	line-height: 25px;
+	list-style-image: url(bullet.png);
 }
 
 .round{
